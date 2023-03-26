@@ -1,0 +1,54 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "DiseaseSurveillanceReportWeb"
+  author: "Jane Doe"
+  date: "3/26/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+  site-url: https://example.com
+  navbar: 
+    backgrown: primary
+    search: true
+    left: 
+      - text: "Home"
+      - file: index.qmd
+      - intro.qmd
+      - summary.qmd
+    right: 
+      - text: "More"
+        menu: 
+          - intro.qmd
+          - summary.qmd
+  sidebar: 
+    style: "floating"
+    search: true
+    border: true
+    contents: 
+      - section: "Basics"
+        contents:      
+         - index.qmd
+         - intro.qmd
+         - summary.qmd
+  page-footer: 
+    center: "Veterinary Laboratory Service, DAFM" 
+    right: 
+      - icon: github
+        href: https://github.com/CosmeSanchezMiguel?tab=repositories
+  reader-mode: true  
+bibliography: references.bib
+format:
+  html:
+    theme: cerulean
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+crossref:
+  appendix-title: "App."
+  appendix-delim: ":"
