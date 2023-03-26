@@ -1,9 +1,53 @@
-# Introduction
+# Bovine Neonatal Enteritis
 
-This is a book created from markdown and executable code.
+Bovine neonatal diarrhea (BND) is a common disease affecting young calves, typically between 1 and 4 weeks of age. The disease is characterized by diarrhea, dehydration, depression, and in severe cases, death. BND is caused by a range of infectious agents, including viruses, bacteria, and protozoa. Common causative agents include:
 
-See @knuth84 for additional discussion of literate programming.
+-   Rotavirus: This is the most common viral cause of BND, and it is highly contagious. The virus can survive in the environment for extended periods, making it challenging to control.
 
-```{r}
-1 + 1
+-   Coronavirus: Another viral cause of BND, coronavirus infections can cause severe diarrhea, dehydration, and weight loss in
+
+-   *Escherichia coli* (*E. coli*): Certain strains of *E. coli* bacteria can cause severe diarrhea and dehydration in young calves. The bacteria are typically acquired from the environment, such as contaminated water, feed, or bedding.
+
+-   *Salmonella*: Calves can become infected with Salmonella bacteria through ingestion of contaminated milk, feed, or water. Infections can cause severe diarrhea, dehydration, and even sepsis.
+
+-   *Cryptosporidium*: This is a protozoan parasite (@fig-crypto) that can cause diarrhea and dehydration in calves. The parasite is highly infectious and can survive for extended periods in the environment.
+
+    [![Oocysts of *Cryptosporidium parvum* in bovine faeces, observed by modified Ziehl-Neelsen staining.](images/Crypto.jpg){#fig-crypto width=80%}](cryptoimage)
+
+Disease surveillance in BND involves monitoring and recording cases of diarrhea in young calves, as well as collecting samples for laboratory analysis. Diagnostic tests, such as fecal exams, bacterial cultures, and serology, can help identify the infectious agents responsible for the disease. The information obtained through disease surveillance can help identify trends, monitor disease prevalence, and inform disease control and prevention strategies, such as vaccination and biosecurity measures.
+
+```{r echo=FALSE}
+library(ggplot2)
+
+ggplot(mpg,aes(displ,hwy,colour=class))+
+  geom_point()
+
 ```
+
+
+Bovine neonatal enteritis is a gastrointestinal disease that affects newborn calves. It can be caused by various infectious agents such as bacteria, viruses, and parasites, and can result in severe dehydration, diarrhea, and even death if left untreated.
+
+There are various treatment options available to manage BNE, including the use of package agents. Package agents are a combination of medications that are administered together to treat a specific condition. In the case of BNE, package agents may include:
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+1.  Antibiotics: Antibiotics such as penicillin and tetracycline are commonly used to treat bacterial infections that cause BNE.
+
+
+2.  Electrolytes: Electrolytes such as sodium, potassium, and chloride are essential for maintaining fluid balance in the body. When calves have diarrhea, they lose significant amounts of these electrolytes, and their levels need to be replenished to prevent dehydration.
+
+3.  Probiotics: Probiotics are beneficial bacteria that can help restore the natural balance of gut flora in calves with BNE.
+
+4.  Anti-inflammatories: Nonsteroidal anti-inflammatory drugs (NSAIDs) can help reduce inflammation and alleviate pain associated with BNE.
+
+5.  Oral rehydration solutions: Oral rehydration solutions can be administered to help restore fluids lost during diarrhea and prevent dehydration.
+
+It is important to consult with a veterinarian for the proper diagnosis and treatment of BNE, as the appropriate package agents may vary depending on the specific cause of the disease.
+
+{{< video https://whttps://youtu.be/7l3fTXgya2I >}}
